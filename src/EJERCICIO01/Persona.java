@@ -15,10 +15,12 @@ private String email;
 
 
 //Constructores
+
 public Persona() {
 	this.nombre = "sin nombre";
 	this.fechaNacimiento = LocalDate.of(2025, 1, 1);
 }
+
 public Persona(String dni, String nombre, String apellido, LocalDate fechaNacimiento,String genero, String direccion, String telefono, String email) {
 	this.dni = dni;
 	this.nombre = nombre;
