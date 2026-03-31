@@ -3,8 +3,19 @@ package EJERCICIO01;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hola");
+		
+		Empleado emp1 = new Empleado();
+		Empleado emp2 = new Empleado();
+		Empleado emp3 = new Empleado();
+		Empleado emp4 = new Empleado();
+		Empleado emp5 = new Empleado();
+		
+				
+		System.out.println(emp1.toString());
+		System.out.println(emp2.toString());
+		System.out.println(emp3.toString());
+		System.out.println(emp4.toString());
+		System.out.println(emp5.toString());
 	}
 
 }
